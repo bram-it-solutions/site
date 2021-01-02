@@ -14,6 +14,9 @@
     "dev": "parcel serve src/index.html",
     "build": "parcel build src/index.html"
   },
+  "browserslist": [
+    "> 0.2%"
+  ],
   "dependencies": {
     "autoprefixer": "^10.1.0",
     "postcss": "^8.2.2",
@@ -21,6 +24,7 @@
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
-    "parcel": "^2.0.0-nightly.500"
+    "parcel": "^2.0.0-nightly.500",
+    "sass": "^1.32.0"
   }
 }

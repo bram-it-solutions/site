@@ -1,0 +1,19 @@
+@import "tailwind";
+@import "navigation";
+@import "card";
+
+body {
+    @apply bg-gray-600 text-white
+}
+
+.separator {
+    @apply my-2 sm:my-4 md:my-8 border border-gray-400
+}
+
+.content {
+    @apply container mx-auto p-2 sm:p-4 md:p-8 max-w-screen-xl;
+}
+
+.cards {
+    @apply flex flex-col sm:flex-row gap-2 sm:gap-4 md:gap-8
+}

@@ -1,0 +1,19 @@
+.card {
+    @apply grid gap-3 grid-cols-3 p-4 md:p-8 bg-gray-800 rounded shadow;
+
+    &-header {
+        @apply col-span-2 flex flex-col;
+
+        .title {
+            @apply text-3xl text-gray-50 lg:text-5xl pb-3;
+        }
+
+        .subtitle {
+            @apply text-base text-gray-300 lg:text-2xl;
+        }
+    }
+
+    &-icon {
+        @apply col-span-1 p-3 flex justify-center items-center
+    }
+}

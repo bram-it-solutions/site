@@ -1,0 +1,11 @@
+.header {
+    @apply text-4xl sm:text-6xl py-6 sm:py-12 px-3 text-left;
+
+    .thick {
+        @apply font-normal text-green-400;
+    }
+
+    .thin {
+        @apply font-extralight text-gray-100;
+    }
+}

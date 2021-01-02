@@ -1,0 +1,27 @@
+.services {
+  @apply flex flex-col sm:flex-row gap-4 sm:gap-8;
+}
+
+.service {
+  @apply grid gap-3 grid-cols-3;
+  @apply p-4 md:p-8 rounded shadow;
+  @apply bg-gradient-to-br from-gray-800 to-gray-900;
+
+  &-header {
+    @apply col-span-2 flex flex-col;
+    @apply font-light;
+
+    .title {
+      @apply pb-3;
+      @apply text-3xl text-green-500 lg:text-5xl uppercase;
+    }
+
+    .subtitle {
+      @apply text-base text-gray-300 lg:text-2xl;
+    }
+  }
+
+  &-icon {
+    @apply col-span-1 p-3 flex justify-center items-center
+  }
+}

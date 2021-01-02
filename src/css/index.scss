@@ -1,16 +1,17 @@
 @import "./_tailwind.css";
-@import "navigation";
-@import "card";
+@import "header";
+@import "services";
 @import "social";
 
+html, body {
+    @apply h-full;
+}
+
 body {
-    @apply bg-gray-600 text-white
+    @apply container mx-auto max-w-screen-lg flex flex-col gap-4 sm:gap-8;
+    @apply bg-gray-700 text-white p-4 sm:p-4 md:p-8;
 }
 
 .separator {
-    @apply my-2 sm:my-4 md:my-8 border border-gray-400
-}
-
-.content {
-    @apply container mx-auto p-2 sm:p-4 md:p-8 max-w-screen-xl;
+    @apply border border-gray-500;
 }

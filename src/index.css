@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav {
+    @apply flex items-center justify-between h-16 bg-gray-700 px-3 py-2 mb-6
+}
+
+.nav .nav-item {
+    @apply px-3 py-2 bg-gray-800 text-white rounded-md
+}
+
+.cards {
+    @apply grid grid-cols-3 gap-4
+}
+
+.card {
+    @apply px-3 py-2 rounded-md bg-gray-700
+}
+
+.card-header {
+    @apply text-2xl text-center
+}

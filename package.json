@@ -1,0 +1,26 @@
+{
+  "name": "bram-it-solutions",
+  "version": "1.0.0",
+  "description": "Homepage for bram-it.solutions",
+  "repository": "https://github.com/bram-it-solutions/site",
+  "author": {
+    "name": "Bram Ceulemans",
+    "email": "bramceulemans@me.com",
+    "url": "https://github.com/bramceulemans"
+  },
+  "license": "GPL-3.0-or-later",
+  "private": true,
+  "scripts": {
+    "dev": "parcel serve src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.2",
+    "postcss-modules": "^4.0.0",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.500"
+  }
+}

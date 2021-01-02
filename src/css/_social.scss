@@ -1,0 +1,23 @@
+.socials {
+  @apply grid grid-cols-3 gap-2 sm:gap-4 md:gap-8;
+}
+
+.social {
+  @apply grid grid-cols-1;
+  @apply p-2 md:p-4 bg-blue-400 rounded shadow;
+  @apply cursor-pointer;
+
+  &-name {
+    @apply col-span-2 flex justify-center items-center;
+    @apply text-2xl;
+  }
+
+  &-icon {
+    @apply col-span-1;
+    @apply p-3 flex justify-center items-center h-16;
+
+    img {
+      @apply h-full;
+    }
+  }
+}

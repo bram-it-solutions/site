@@ -1,0 +1,18 @@
+[build]
+    publish = "/dist"
+    command = "yarn build"
+
+[build.environment]
+    NODE_VERSION = "14"
+    NODE_ENV = "production"
+
+# Social Links
+[[redirects]]
+    from = "/s/github"
+    to = "https://github.com/bramceulemans"
+[[redirects]]
+    from = "/s/gitlab"
+    to = "https://gitlab.com/bramceulemans"
+[[redirects]]
+    from = "/s/linkedin"
+    to = "https://www.linkedin.com/in/bramceulemans/"

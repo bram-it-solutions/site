@@ -1,17 +1,26 @@
-@import "./_tailwind.css";
-@import "header";
-@import "services";
-@import "social";
-
-html, body {
-    @apply h-full;
-}
+@import './_tailwind.css';
+@import 'header';
+@import 'services';
+@import 'social';
+@import 'footer';
 
 body {
-    @apply container mx-auto max-w-screen-lg flex flex-col gap-4 sm:gap-8;
-    @apply bg-gray-700 text-white p-4 sm:p-4 md:p-8;
+  @apply bg-gray-700 text-white;
 }
 
-.separator {
+header,
+main {
+  @apply container mx-auto max-w-screen-lg;
+  @apply px-4 sm:px-4 md:px-8;
+}
+
+header {
+}
+
+main {
+  @apply flex flex-col gap-4 sm:gap-8;
+
+  hr {
     @apply border border-gray-500;
+  }
 }

@@ -11,9 +11,10 @@
   "license": "GPL-3.0-or-later",
   "private": true,
   "scripts": {
-    "dev": "npx parcel serve src/index.html",
-    "build": "npx parcel build src/index.html",
-    "prod": "cross-env NODE_ENV=production yarn build"
+    "dev": "yarn parcel serve src/index.html",
+    "build": "yarn parcel build src/index.html",
+    "prod": "cross-env NODE_ENV=production yarn build",
+    "lint": "yarn prettier --write ."
   },
   "browserslist": [
     "> 0.2%"
@@ -27,6 +28,7 @@
   "devDependencies": {
     "cross-env": "^7.0.3",
     "parcel": "^2.0.0-nightly.500",
+    "prettier": "2.2.1",
     "sass": "^1.32.0"
   }
 }

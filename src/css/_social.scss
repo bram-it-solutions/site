@@ -1,13 +1,12 @@
 .socials {
-  @apply grid grid-cols-3 gap-2 sm:gap-4 md:gap-8;
+  @apply grid grid-cols-3 gap-4 sm:gap-8;
 }
 
 .social {
   @apply grid grid-cols-1 sm:grid-cols-2 gap-2;
-  @apply py-3 px-6 bg-gray-800 bg-none rounded shadow;
-  @apply cursor-pointer;
-  @apply font-light;
-  @apply transition bg-gradient-to-br hover:from-green-600 hover:to-green-700;
+  @apply py-3 px-6;
+  @apply font-light cursor-pointer rounded shadow;
+  @apply bg-gray-800 bg-gradient-to-br hover:from-green-600 hover:to-green-700;
 
   &-name {
     @apply flex justify-center items-center sm:justify-start;
@@ -19,7 +18,7 @@
     @apply flex justify-center items-center sm:justify-end p-1 h-12;
 
     img {
-      @apply h-full;
+      @apply object-contain;
     }
   }
 }
